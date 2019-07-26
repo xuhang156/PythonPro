@@ -22,7 +22,7 @@ def showContinue():
         print("执行第：",i,"此")
         if i == 1:
             #continue
-            break
+            break #跳出循环
         print("执行下面的语句：i = ",i)
 showContinue()
 #showListData()
