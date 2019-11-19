@@ -9,7 +9,8 @@ def MainFun():
             return
         
     while(1):
-        filepath = "./log/"+str+ "/" + time.strftime('%Y-%m-%d',time.localtime(time.time())) + ".txt"
+        filepath = "./log/"+str+ "/" + time.strftime('%Y年-%m月-%d日',time.localtime(time.time())) + ".txt"
+        print(filepath)
         username = str + ": "
         userstr = input(username)
         if userstr == "ok":
